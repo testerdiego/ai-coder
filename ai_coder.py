@@ -142,15 +142,15 @@ if prompt := st.chat_input("Qual sua dúvida sobre Python?"):
             except Exception as e:
                 st.error(f"Ocorreu um erro ao se comunicar com a API da Groq: {e}")
 
-st.markdown(
-    """
-    <div style="text-align: center; color: gray;">
-        <hr>
-        <p>Hello World</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <div style="text-align: center; color: gray;">
+#         <hr>
+#         <p>Hello World</p>
+#     </div>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 
 
