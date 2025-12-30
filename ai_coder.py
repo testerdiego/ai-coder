@@ -124,7 +124,7 @@ if prompt := st.chat_input("Qual sua dúvida sobre Python?"):
                 # Chama a API da Groq para gerar a resposta do assistente
                 chat_completion = client.chat.completions.create(
                     messages = messages_for_api,
-                    model = "openai/gpt-oss-20b", 
+                    model = "openai/gpt-oss-120b", 
                     temperature = 0.7,
                     max_tokens = 2048,
                 )
